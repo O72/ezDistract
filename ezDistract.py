@@ -10,6 +10,7 @@ import string
 import time
 import sys
 import argparse
+import platform
 
 # A list that contains all the keyboard characters
 KEYS = list(string.printable)
@@ -27,7 +28,11 @@ def keyClear():
             break
         if key in KEYS:
             # Clear the terminal
-            os.system("clear")
+            if platform.system().lower() == 'linux':
+                # Clear the terminal
+                os.system("clear")
+            if platform.system().lower() == 'windows':
+                os.system("cls")
             time.sleep(1)
 
 
