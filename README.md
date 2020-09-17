@@ -14,6 +14,13 @@ sudo pip3 install keyboard
 sudo pip3 install argparse
 ```
 
+## Installation
+```bash
+git clone https://github.com/O72/ezDistract.git
+cd ezDistract
+python3 ezDistract.py -h
+```
+
 ## Usage
 
 ```bash
