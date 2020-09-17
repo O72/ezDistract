@@ -22,7 +22,6 @@ python3 ezDistract.py -h
 ```
 
 ## Usage
-
 ```bash
 $ python3 ezDistract.py -h
 usage: ezDistract.py [options]
@@ -39,3 +38,16 @@ Flag options:
                the keyboard
 
 ```
+
+### To run in the Background for Windows
+```bash
+C:\O72\RedTeaming>START /B ezDistract.exe -h
+
+```
+
+### To run in the Background for Linux
+```bash
+λ O72 RedTeaming → python3 ezDistract.py -h &
+
+```
+
