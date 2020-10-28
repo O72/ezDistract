@@ -1,7 +1,7 @@
 # ezDistract
 
 
-A simple redteam tool that will distract the blue teamers from using the terminal properly.
+A simple redteam tool that will distract the blue teamers from using the terminal properly. (for competition usage)
 
 ## Prerequisites
 
@@ -31,7 +31,7 @@ optional arguments:
 
 Flag options:
 
-  -c, --clear  Clears the terminal as soon as the user clickany key in the
+  -c, --clear  Clears the terminal as soon as the user click any key in the
                keyboard
   -a, --add    Add the same key multiple times in the terminal
   -w, --write  Write sentences in terminal as soon as the userclick any key in
